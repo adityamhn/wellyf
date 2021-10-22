@@ -1,0 +1,82 @@
+.partnershipPage {
+    padding: 0;
+
+    .wrapper {
+        padding: 0;
+
+
+        .topSection {
+            min-height: calc(100vh - 64px);
+            background: url("../../images/kitchenBoard.png") no-repeat center center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            padding:4rem 3rem;
+
+            .heading {
+                font-size: 3.3rem;
+                color: #a8d2ff;
+            }
+
+            .headerCard {
+                width: 100%;
+                margin-top: 7rem;
+                background-color: rgba(186, 179, 169, 0.49);
+                padding: 0rem 1rem;
+
+                .text1 {
+                    color: #202b37;
+                    font-size: 8rem;
+                    font-weight: bold;
+
+                    .diff {
+                        color: #9f0c0c;
+                    }
+                }
+            }
+        }
+
+        .whatWeOfferSection {
+            width: 100%;
+            padding:4rem 6rem;
+
+            .whatWeOffer {
+                font-size:3rem;
+                text-align: center;
+                color: #ff7900;
+            }
+
+            .deetSection {
+                display: flex;
+                align-items: center;
+                padding: 3rem 0rem;
+
+                .deets {
+                    width: 60%;
+
+                    .title {
+                        color: #ff7900;
+                        font-size: 2.2rem;
+                        font-weight: bold;
+                    }
+
+                    .theText {
+                        color: #202b37;
+                        font-size: 1.2rem;
+                        margin: 1.7rem 0rem;
+                    }
+                }
+                .ImageSec {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 40%;
+                    height: fit-content;
+                    padding: 1rem 1rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,114 @@
+.dietPlan-container {
+    padding: 0;
+
+    .wrapper {
+        padding: 0;
+
+        .diff {
+            color: #f15a24;
+        }
+
+        .topSection {
+            min-height: calc(100vh - 64px);
+            background: url("../../images/dietPlanbg.png") no-repeat center center;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            padding: 0rem 5rem;
+            position: relative;
+
+            .homeCard {
+                background: rgba(0, 0, 0, 0.4);
+                padding: 3rem;
+                margin-bottom: 2rem;
+
+                .heading {
+                    font-size: 5rem;
+                    color: #fff;
+                    margin-bottom: 1rem;
+                }
+
+                .subheading {
+                    font-size: 3rem;
+                    color: #fff;
+                }
+            }
+
+            .scroll-sec {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: rgba(0, 0, 0, 0.4);
+                display: flex;
+                justify-content: center;
+                padding: 1rem 0rem;
+
+                .scroll-text {
+                    color: #fff;
+                    font-size: 1.4rem;
+                }
+            }
+        }
+
+        .bodySection {
+            padding: 3rem 0rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .mainText {
+                text-align: center;
+                font-size: 2.5rem;
+                color: #615054;
+            }
+
+            .theText {
+                font-size: 1.8rem;
+                color: #b07bac;
+                margin: 0.6rem 0rem;
+            }
+
+            .swiper-img {
+                margin:5rem 0rem ;
+            }
+
+            .plan-cards {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .tryButton {
+                width: 23rem;
+                height:4.2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size:1.5rem;
+                border-radius: 12px;
+                font-style: italic;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                background-color: #f9f5ef;
+                color:#919f82;
+                margin:1rem 0rem;
+                border:none;
+            }
+
+            .planButton {
+                width: 23rem;
+                height:4.2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size:1.5rem;
+                font-style: italic;
+                border-radius: 12px;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                background-color: #919f82;
+                color:#f9f5ef;
+                margin:1rem 0rem;
+                border:none;
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.planCard {
+    height: 23rem;
+    width: 18rem;
+    border: none;
+    color: #615054;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    background: url("../../images/food.png") no-repeat, #fbf7f1;
+    background-position: -150% 360%;
+    background-size: 20rem 20rem;
+    margin: 4rem 3rem;
+
+    .planCardBody {
+        position: relative;
+
+        .days {
+            font-size: 1.2rem;
+            .period {
+                font-style: italic;
+            }
+        }
+
+        .desc {
+            font-size: 1.2rem;
+        }
+
+        .plan-item {
+            margin-top: 1rem;
+            font-size: 1.7rem;
+            width: 70%;
+            font-weight: bold;
+        }
+
+        .bookBtn {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            visibility: hidden;
+            opacity: 0;
+            transition: all 0.3s ease;
+            background: #f9f5ef;
+            font-style: italic;
+            border: none;
+            color: #615054;
+        }
+    }
+
+    &:hover {
+        background-color: #919f82;
+        color: #fbf7f1;
+        transform: scale(1.1);
+        background-position: -110% 310%;
+
+        .bookBtn {
+            visibility: visible;
+            opacity: 1;
+        }
+    }
+}

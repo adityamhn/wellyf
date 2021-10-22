@@ -1,0 +1,285 @@
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.modal {
+    .modal-content {
+        border-radius: 12px;
+
+    }
+    .modalBody {
+        background: url('./images/bg.png') no-repeat center fixed;
+        background-size: cover;
+        padding: 8rem 1rem;
+        display: flex;
+        position: relative;
+        border-radius: 10px;
+
+        .close {
+            color: #fff;
+            position: absolute;
+            right: 2rem;
+            top: 1.7rem;
+            font-size: 1.6rem;
+            cursor: pointer;
+        }
+
+        .left {
+            width: 25%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .formProgress {
+                position: relative;
+
+                .bar {
+                    width: 5px;
+                    height: 18rem;
+                    background: #c4c4c4;
+                    border-radius: 8px;
+                }
+
+                .bar1 {
+                    // animation:bar1 0.6s linear;
+                    background: linear-gradient(to bottom, #fff 0%, #fff 25%, #c4c4c4 25%, #c4c4c4 100%);
+
+                    @keyframes bar1 {
+                        0% {
+                            background: linear-gradient(to bottom, #fff 0%, #fff 0%, #c4c4c4 0%, #c4c4c4 100%);
+                        }
+
+                        100% {
+                            background: linear-gradient(to bottom, #fff 0%, #fff 25%, #c4c4c4 25%, #c4c4c4 100%);
+                        }
+                    }
+                }
+
+                .bar2 {
+                    // animation:bar2 0.6s linear;
+                    background: linear-gradient(to bottom, #fff 0%, #fff 50%, #c4c4c4 50%, #c4c4c4 100%);
+
+                    @keyframes bar2 {
+                        0% {
+                            background: linear-gradient(to bottom, #fff 0%, #fff 25%, #c4c4c4 25%, #c4c4c4 100%);
+                        }
+
+                        100% {
+                            background: linear-gradient(to bottom, #fff 0%, #fff 50%, #c4c4c4 50%, #c4c4c4 100%);
+                        }
+                    }
+                }
+
+                .bar3 {
+                    // animation:bar3 0.6s linear;
+                    background: linear-gradient(to bottom, #fff 0%, #fff 75%, #c4c4c4 75%, #c4c4c4 100%);
+
+                    @keyframes bar3 {
+                        0% {
+                            background: linear-gradient(to bottom, #fff 0%, #fff 50%, #c4c4c4 50%, #c4c4c4 100%);
+                        }
+
+                        100% {
+                            background: linear-gradient(to bottom, #fff 0%, #fff 75%, #c4c4c4 75%, #c4c4c4 100%);
+                        }
+                    }
+                }
+
+                .bar4 {
+                    // animation:bar4 0.6s linear;
+                    background: linear-gradient(to bottom, #fff 0%, #fff 100%, #c4c4c4 100%, #c4c4c4 100%);
+
+                    @keyframes bar4 {
+                        0% {
+                            background: linear-gradient(to bottom, #fff 0%, #fff 75%, #c4c4c4 75%, #c4c4c4 100%);
+                        }
+
+                        100% {
+                            background: linear-gradient(to bottom, #fff 0%, #fff 100%, #c4c4c4 100%, #c4c4c4 100%);
+                        }
+                    }
+                }
+
+                .icon {
+                    position: absolute;
+                    width: 2.5rem;
+                    filter: grayscale(1);
+                    transition: all 0.3s ease;
+                }
+
+                .icon1 {
+                    top: 0;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+
+                .icon2 {
+                    top: 25%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+
+                .icon3 {
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+
+                .icon4 {
+                    top: 75%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+
+                .icon5 {
+                    top: 100%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+
+                .showColor {
+                    filter: grayscale(0);
+                }
+            }
+        }
+
+        .right {
+            width: 75%;
+
+
+
+            .infoForm {
+                display: flex;
+                flex-direction: column;
+                width: 25rem;
+
+                .infoPrice {
+                    color: #F15A24;
+                    font-size: 1.3rem;
+                    display:flex;
+                    align-items: center;
+                    margin-top: 2rem;
+                    margin-bottom: -1rem;
+                }
+
+                .infoTitle {
+                    font-size: 1.5rem;
+                    font-weight: normal;
+                    color: #F15A24;
+                    margin-bottom: 2rem;
+                }
+
+                .infoGroup {
+                    margin-bottom: 1.1rem;
+
+                    .infoControl {
+                        border-radius: 8px;
+                        height: 2.5rem;
+                    }
+
+                    .diet-type {
+                        margin: 1rem 0rem;
+
+                        .diet-type-label {
+                            color: #fff;
+                            font-size: 1.1rem;
+                            margin-left: 1rem;
+                        }
+
+                        .diet-type-input {
+                            color: #F15A24;
+                        }
+                    }
+                }
+
+                .dateGroup {
+                    .dateControl {
+                        border: 1px solid #F15A24;
+                        border-radius: 6px;
+                        padding: 0.4rem 0.8rem;
+                        margin-right: 0.5rem;
+                        margin-top: 0.5rem;
+                        color: #fff;
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+                        background: transparent;
+                    }
+                }
+
+                .btnsGroup {
+                    margin-top: 3rem;
+                    .nextBtn {
+                        padding: 0.5rem 2rem;
+                        border-radius: 6px;
+                        background-color: #F15A24;
+                        border: none;
+                        margin: 0rem 0.5rem;
+                    }
+                }
+
+                .selectType {
+                    display: flex;
+                    border: 1px solid #F15A24;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    border-radius: 6px;
+
+                    .type {
+                        width: 100%;
+                        height: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 0.3rem 0.2rem;
+                        cursor: pointer;
+                        color: #fff;
+                    }
+
+                    .middle {
+                        border-left: 1px solid #F15A24;
+                        border-right: 1px solid #F15A24;
+                    }
+
+                    .typeSelected {
+                        background-color: #F15A24;
+                    }
+                }
+
+                .selectLabel {
+                    color: #fff;
+                    margin-top: 1.3rem;
+                }
+
+                .selectDays {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 30rem;
+
+                    .days {
+                        border: 1px solid #F15A24;
+                        border-radius: 6px;
+                        padding: 0.4rem 0.8rem;
+                        margin-right: 0.5rem;
+                        margin-top: 0.5rem;
+                        color: #fff;
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+                    }
+
+                    .selected {
+                        background-color: #F15A24;
+                    }
+                }
+            }
+        }
+    }
+}
