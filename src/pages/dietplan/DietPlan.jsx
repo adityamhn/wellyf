@@ -2,6 +2,7 @@ import React from 'react'
 import { Button, Card, Container, Image } from 'react-bootstrap'
 import PlanCard from '../../components/cards/PlanCard'
 import Navbar from '../../components/Navbar/Navbar'
+import {VscFoldDown} from 'react-icons/vsc'
 import './DietPlan.scss'
 
 const DietPlan = () => {
@@ -17,7 +18,9 @@ const DietPlan = () => {
                         </Card>
 
                         <div className="scroll-sec">
-                            <div className="scroll-text">Scroll for your diet</div>
+                            <div className="scroll-text"><VscFoldDown style={{
+                                marginRight:5,
+                            }} />Scroll for your diet</div>
                         </div>
                     </div>
                     <div className="bodySection">

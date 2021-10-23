@@ -12,11 +12,15 @@
 
     .planCardBody {
         position: relative;
+    font-family: 'Roboto Slab';
+
 
         .days {
             font-size: 1.2rem;
             .period {
                 font-style: italic;
+                font-family: 'Merriweather';
+                font-weight: bold;
             }
         }
 
@@ -39,9 +43,11 @@
             opacity: 0;
             transition: all 0.3s ease;
             background: #f9f5ef;
-            font-style: italic;
             border: none;
             color: #615054;
+            font-style: italic;
+                font-family: 'Merriweather';
+                font-weight: bold;
         }
     }
 

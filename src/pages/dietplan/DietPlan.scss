@@ -1,3 +1,4 @@
+
 .dietPlan-container {
     padding: 0;
 
@@ -16,6 +17,7 @@
             align-items: center;
             padding: 0rem 5rem;
             position: relative;
+            font-family: 'Roboto Slab';
 
             .homeCard {
                 background: rgba(0, 0, 0, 0.4);
@@ -31,6 +33,7 @@
                 .subheading {
                     font-size: 3rem;
                     color: #fff;
+                    font-weight: normal;
                 }
             }
 
@@ -61,12 +64,17 @@
                 text-align: center;
                 font-size: 2.5rem;
                 color: #615054;
+                font-family: 'Merriweather';
+                font-weight: bold;
+                font-style: italic;
             }
 
             .theText {
                 font-size: 1.8rem;
                 color: #b07bac;
                 margin: 0.6rem 0rem;
+    font-family: 'Roboto Slab';
+
             }
 
             .swiper-img {
@@ -92,6 +100,9 @@
                 color:#919f82;
                 margin:1rem 0rem;
                 border:none;
+                font-style: italic;
+                font-family: 'Merriweather';
+                font-weight: bold;
             }
 
             .planButton {
@@ -108,6 +119,9 @@
                 color:#f9f5ef;
                 margin:1rem 0rem;
                 border:none;
+                font-style: italic;
+                font-family: 'Merriweather';
+                font-weight: bold;
             }
         }
     }

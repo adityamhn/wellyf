@@ -1,3 +1,28 @@
 @import "~bootstrap/scss/bootstrap";
 
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: "Futura condensed";
+    src: local("Futura condensed"), url("./fonts/Futura\ Condensed\ Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "Futura condensed bold";
+    src: local("Futura condensed bold"), url("./fonts/Futura\ Bold\ Condensed.otf");
+  }
+
+  @font-face {
+    font-family: "Futura medium";
+    src: local("Futura medium"), url("./fonts/futura/futura\ medium\ bt.ttf");
+  }
+
+  @font-face {
+    font-family: "Futura bold";
+    src: local("Futura bold"), url("./fonts/futura/Futura\ Bold\ font.ttf");
+  }
+
+html{
+    font-family: 'Roboto Slab';
+}

@@ -44,6 +44,24 @@ const Partnership = () => {
                         </Card>
                     </div>
 
+                    <div className="middleSection">
+                        <Card className="middleCard">
+                            <h2 className="title">Calling ALL Cloud Kitchens! Calling ALL Cloud Kitchens!!</h2>
+                            <ul className="middleList">
+                                <li>Kitchens can be cumbersome. Especially the ones on cloud (No pun intended). From creating user traction to building your own online identity, we know the hurdles on the way.</li>
+                                <li>
+                                    We’re here to boost your revenue from our user base to your kitchens. All you need is a kickass chef and a well-maintained kitchen.
+                                </li>
+
+                                <li>
+                                Our Recipes and customers are yours to serve. Oh, and by the way did we mention we serve healthy foods? Give us a call, or wait for ours. Coz we’re coming for you!!
+                                </li>
+
+                            </ul>
+                            <div className="bottomText">No Extra Cost. Higher Revenue. Multi Cuisine </div>
+                        </Card>
+                    </div>
+
                     <div className="whatWeOfferSection">
                         <h2 className="whatWeOffer">What we Offer?</h2>
                         {data.map((data, index) => (
