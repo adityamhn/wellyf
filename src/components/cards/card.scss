@@ -10,6 +10,15 @@
     background-size: 20rem 20rem;
     margin: 4rem 3rem;
 
+    @media only screen and (max-width: 500px) {
+        transform: scale(0.9);
+    }
+
+    @media only screen and (max-width: 300px) {
+        transform: scale(0.85);
+    }
+
+
     .planCardBody {
         position: relative;
     font-family: 'Roboto Slab';
@@ -56,6 +65,14 @@
         color: #fbf7f1;
         transform: scale(1.1);
         background-position: -110% 310%;
+
+        @media only screen and (max-width: 500px) {
+            transform: scale(1);
+        }
+    
+        @media only screen and (max-width: 300px) {
+            transform: scale(0.95);
+        }
 
         .bookBtn {
             visibility: visible;

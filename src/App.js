@@ -4,7 +4,7 @@ import ModalForm from "./Modal";
 import DietPlan from "./pages/dietplan/DietPlan";
 import Partnership from "./pages/Partnership/Partnership";
 
-import { Switch, Route, Link } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 
 function App() {
   const loadScript = (src) => {

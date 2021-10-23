@@ -4,7 +4,6 @@
     .wrapper {
         padding: 0;
 
-
         .topSection {
             min-height: calc(100vh - 64px);
             background: url("../../images/kitchenBoard.png") no-repeat center center;
@@ -13,14 +12,31 @@
             flex-direction: column;
             align-items: center;
             position: relative;
-            padding:4rem 3rem;
+            padding: 4rem 3rem;
+
+            @media only screen and (max-width: 820px) {
+                padding: 3rem 2rem;
+            }
+
+            @media only screen and (max-width: 520px) {
+                padding: 3rem 1rem;
+            }
 
             .heading {
                 font-size: 3.8rem;
                 color: #a8d2ff;
-            font-family:"Futura condensed";
-            font-weight: bold;
+                font-family: "Futura condensed";
+                font-weight: bold;
 
+                @media only screen and (max-width: 1040px) {
+                    font-size:3.5rem;
+                }
+
+                @media only screen and (max-width: 640px) {
+                    font-size:3rem;
+                }
+
+             
             }
 
             .headerCard {
@@ -29,12 +45,27 @@
                 background-color: rgba(186, 179, 169, 0.49);
                 padding: 0rem 1rem;
 
+                @media only screen and (max-width: 1040px) {
+                    margin-top: 4rem;
+                }
+
                 .text1 {
                     color: #202b37;
                     font-size: 8rem;
                     font-weight: bold;
-            font-family:"Futura condensed bold";
+                    font-family: "Futura condensed bold";
 
+                    @media only screen and (max-width: 1040px) {
+                        font-size: 6.5rem;
+                    }
+
+                    @media only screen and (max-width: 640px) {
+                        font-size:5rem;
+                    }
+
+                    @media only screen and (max-width: 390px) {
+                        font-size:4rem;
+                    }
 
                     .diff {
                         color: #9f0c0c;
@@ -43,22 +74,48 @@
             }
         }
 
-
         .middleSection {
-            min-height:100vh;
+            min-height: 100vh;
             background: url("../../images/board.png") no-repeat center center;
             background-size: cover;
-            padding:4rem 3rem;
+            padding: 4rem 3rem;
+
+            @media only screen and (max-width: 1040px) {
+                padding: 2rem 2rem;
+
+            }
+
+            @media only screen and (max-width: 640px) {
+                padding: 2rem 1rem;
+
+            }
 
             .middleCard {
                 height: 100%;
                 background-color: rgba(0, 0, 0, 0.28);
-                padding:3rem 2rem;
+                padding: 3rem 2rem;
+
+                @media only screen and (max-width: 640px) {
+                    padding: 2rem 1rem;
+    
+                }
 
                 .title {
                     color: #d4e4f6;
                     font-family: "Futura condensed bold";
                     font-size: 3.8rem;
+
+                    @media only screen and (max-width: 1040px) {
+                        font-size:3.2rem;
+                    }
+    
+                    @media only screen and (max-width: 640px) {
+                        font-size:2.8rem;
+                    }
+
+                    @media only screen and (max-width: 390px) {
+                        font-size:2.4rem;
+                    }
                 }
 
                 .middleList {
@@ -67,10 +124,18 @@
                     li {
                         color: #d4e4f6;
                         font-family: "Futura medium";
-                        font-size:1.8rem;
+                        font-size: 1.8rem;
                         font-style: italic;
                         line-height: 1.88;
                         margin: 1rem 0rem;
+
+                        @media only screen and (max-width: 1040px) {
+                            font-size:1.4rem;
+                        }
+        
+                        @media only screen and (max-width: 640px) {
+                            font-size:1.2rem;
+                        }
                     }
                 }
 
@@ -80,22 +145,51 @@
                     font-size: 3rem;
                     margin-right: 0;
                     margin-left: auto;
+
+                    @media only screen and (max-width: 1040px) {
+                        font-size:2.5rem;
+                    }
+    
+                    @media only screen and (max-width: 640px) {
+                        font-size:2rem;
+                    }
                 }
             }
         }
 
         .whatWeOfferSection {
             width: 100%;
-            padding:4rem 6rem;
+            padding: 4rem 6rem;
+
+            @media only screen and (max-width: 1200px) {
+                padding: 2rem 3rem;
+
+            }
+
+            @media only screen and (max-width: 640px) {
+                padding: 2rem 1rem;
+
+            }
 
             .whatWeOffer {
-                font-size:3.7rem;
+                font-size: 3.7rem;
                 text-align: center;
                 color: #ff7900;
-                font-family: 'Futura medium';
+                font-family: "Futura medium";
                 font-style: italic;
 
+                @media only screen and (max-width: 900px) {
+                    font-size: 2.8rem;
+                    margin-bottom: 4rem;
+                }
 
+                @media only screen and (max-width: 600px) {
+                    font-size: 2.3rem;
+                }
+
+                @media only screen and (max-width: 316px) {
+                    font-size: 2rem;
+                }
             }
 
             .deetSection {
@@ -103,21 +197,54 @@
                 align-items: center;
                 padding: 3rem 0rem;
 
+                @media only screen and (max-width: 940px) {
+                    padding: 1rem 0rem;
+                }
+
+                @media only screen and (max-width: 900px) {
+                    flex-direction: column-reverse !important;
+                }
+
                 .deets {
                     width: 60%;
+
+                    @media only screen and (max-width: 900px) {
+                        margin-top: 2rem;
+                        width: 90%;
+                    }
+
+                    @media only screen and (max-width: 540px) {
+                        width: 100%;
+                    }
+
 
                     .title {
                         color: #ff7900;
                         font-size: 2.2rem;
-                        font-family: 'Futura bold';
+                        font-family: "Futura bold";
 
+                        @media only screen and (max-width: 1080px) {
+                            font-size: 1.8rem;
+                        }
+
+                        @media only screen and (max-width: 900px) {
+                            text-align: center;
+                        }
                     }
 
                     .theText {
                         color: #202b37;
                         font-size: 1.2rem;
                         margin: 1.7rem 0rem;
-                        font-family: 'Futura medium';
+                        font-family: "Futura medium";
+
+                        @media only screen and (max-width: 1080px) {
+                            font-size: 0.9rem;
+                        }
+
+                        @media only screen and (max-width: 900px) {
+                            text-align: center;
+                        }
                     }
                 }
                 .ImageSec {
@@ -127,6 +254,28 @@
                     width: 40%;
                     height: fit-content;
                     padding: 1rem 1rem;
+
+
+                    @media only screen and (max-width: 900px) {
+                        width: 100%;
+                    justify-content: center !important;
+
+                    }
+                    .deetImage {
+                        width: 22rem;
+
+                        @media only screen and (max-width: 1050px) {
+                            width: 18rem;
+                        }
+
+                        @media only screen and (max-width: 900px) {
+                            width: 14rem;
+                        }
+                    }
+
+
+                 
+
                 }
             }
         }
